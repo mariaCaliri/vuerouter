@@ -13,6 +13,12 @@ export default {
   components: {
     TheNavigation,
   },
+  provide() {
+    return {
+      teams: this.teams,
+      users: this.users,
+    };
+  },
   data() {
     return {
     

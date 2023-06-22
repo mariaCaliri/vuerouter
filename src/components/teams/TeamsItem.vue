@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router';
   <script>
   export default {
     props: ['id',"name", "memberCount"],
-    components: { RouterLink }
+  
 };
   </script>
   
